@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/srv.dir/srv.o -o srv 

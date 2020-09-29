@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsection5.a CMakeFiles/section5.dir/client.o CMakeFiles/section5.dir/srv.o
+/usr/bin/ranlib libsection5.a

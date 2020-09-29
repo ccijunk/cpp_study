@@ -1,6 +1,13 @@
+
+
+set(CMAKE_CXX_STANDARD 14)
+
+
 add_executable(client client.cpp)
 
+
 add_executable(srv srv.cpp)
+
 
 add_library(section5 client.cpp conf.lua Config.hpp cpplang.hpp hello.hpp SalesData.hpp SpinLock.hpp srv.cpp Summary.hpp Zmq.hpp)
 install (TARGETS section5 DESTINATION bin)

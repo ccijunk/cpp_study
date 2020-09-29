@@ -14,7 +14,7 @@ using zmq_context_type  = zmq::context_t;
 using zmq_socket_type   = zmq::socket_t;
 using zmq_message_type  = zmq::message_t;
 
-template<int thread_num = 1>
+template<int thread_num = 1>//   这个模板是在干嘛
 class ZmqContext final
 {
 #if 0
